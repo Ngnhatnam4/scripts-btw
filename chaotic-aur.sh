@@ -21,3 +21,5 @@ EOF
 
 # Update
 sudo pacman -Syuu
+
+echo "finished"
