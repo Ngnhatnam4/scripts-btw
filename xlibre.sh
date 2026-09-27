@@ -4,7 +4,7 @@
 if sudo -n true 2>/dev/null; then 
    echo "ok"
 else 
-   echo "maybe passwordless sudo user"
+   echo "maybe passwordless sudo user or sudo access not avaliable"
 fi
 
 curl -O https://xlibre-arch.github.io/xlibre-archlinux.asc
